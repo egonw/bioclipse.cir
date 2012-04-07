@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Chemical Identifier Resolver Plugin
+Bundle-SymbolicName: net.bioclipse.cir; singleton:=true
+Bundle-Version: 2.5.0.qualifier
+Bundle-Activator: net.bioclipse.cir.Activator
+Bundle-Vendor: The Bioclipse Team
+Export-Package: net.bioclipse.cir, net.bioclipse.cir.business
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.bioclipse.core,
+ net.bioclipse.scripting,
+ org.springframework.bundle.spring.aop,
+ net.sf.cglib,
+ org.springframework.osgi.aopalliance.osgi,
+ net.bioclipse.cdk.business,
+ org.apache.commons.httpclient;bundle-version="3.1.0",
+ org.openscience.cdk.ioformats,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.log4j
+Bundle-ActivationPolicy: lazy

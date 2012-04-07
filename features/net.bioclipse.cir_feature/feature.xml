@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.bioclipse.cir_feature"
+      label="Chemical Identifier Resolver Feature"
+      version="2.5.0.qualifier"
+      provider-name="Bioclipse Team"
+      plugin="net.bioclipse.cir">
+
+   <description>
+      Chemical Identifier Resolver support for Bioclipse.
+   </description>
+
+   <copyright>
+      Copyright (c) 2012 The Bioclipse Project Team and others.
+Eclipse Public License.
+   </copyright>
+
+   <url>
+      <discovery label="Chemical Identifier Resolver Homepage" url="http://cactus.nci.nih.gov/chemical/structure"/>
+   </url>
+
+   <requires>
+      <import plugin="org.openscience.cdk.io"/>
+      <import plugin="org.openscience.cdk.core"/>
+      <import plugin="org.openscience.cdk.standard"/>
+      <import plugin="org.openscience.cdk.data"/>
+      <import plugin="org.openscience.cdk.interfaces"/>
+      <import plugin="org.openscience.cdk.silent"/>
+      <import plugin="org.openscience.cdk.isomorphism"/>
+      <import plugin="org.openscience.cdk.smarts"/>
+      <import plugin="javax.vecmath" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="net.bioclipse.chemoinformatics_feature" version="2.5.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="net.bioclipse.cir"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.bioclipse.cir_site"
+      label="Bioclipse-CIR Update Site"
+      version="1.0.0">
+
+   <description>
+      The Bioclipse-AMBIT plugins makes functionality from the AMBIT library accessible in the Bioclipse scripting environment.
+   </description>
+
+   <copyright>
+      The Bioclipse plugin for AMBIT is copyright Egon Willighagen,
+2011. The AMBIT library code is copyrighted by Ideaconsult Ltd.
+   </copyright>
+
+   <url>
+      <discovery label="AMBIT website" url="http://cir.sourceforge.net/"/>
+   </url>
+
+   <includes
+         id="net.bioclipse.cir_feature"
+         version="0.0.0"/>
+
+   <requires>
+      <import feature="net.bioclipse.core_feature" version="2.5.0"/>
+   </requires>
+
+</feature>
